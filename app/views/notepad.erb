@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title></title>
+  <h1> Press enter/return after typing </h1>
+</head>
+<body>
+  <div class='line_container'>
+    <ol>
+      <% idx = 0 %>
+      <% while (idx < 32) %>
+        <li id="line<%= idx  %>" >
+          <form class='new-sentence' action='/sentences' method='post' >
+            <input name='new-sentence' placeholder='' />
+          </form>
+        </li>
+        <% idx += 1 %>
+      <% end %>
+    </ol>
+  </div>
+</body>
+</html>
