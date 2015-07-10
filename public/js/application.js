@@ -9,7 +9,9 @@ $(document).ready(function() {
 
 });
 
-
+//////////////////////////////////////////////////////////////////////////////////
+// This is a test because I forgot what I last did
+//////////////////////////////////////////////////////////////////////////////////
 
 // while the cursor is over a div, divs above and below will float in opposite directions (jquery)
 // information entered into the div fields will be saved to the database (saved to the dom?)
